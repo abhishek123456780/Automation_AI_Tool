@@ -23,5 +23,5 @@ jobs:
         with:
           context: ./Dockerfolder
           push: true
-          tags: abhishek123456780/automate_image:latest
+          tags: abhishekrockzz78/automate_image:latest
          
