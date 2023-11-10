@@ -512,10 +512,7 @@ def process_grammer():
         req_data = json.loads(request.data) 
         input_para = req_data['input_txt']
         text_correction_obj = TextCorrectionClass()  
-        print(2)   
-
         processed_paras = text_correction_obj.process_all_paragraphs(input_para) 
-        print(3)
         for incrrt_txt,crrt_txt in zip(input_para,processed_paras): 
             response = {"status":"","org_txt":"","corr_txt":"","Err":False,"insert":"","delete":""}           
             response['corr_txt'] = crrt_txt
