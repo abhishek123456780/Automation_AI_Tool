@@ -1,3 +1,4 @@
+# dckr_pat_wixDdUh12tpOmp3NOQctZTHjldo
 name: Build and push Docker image to Docker Hub
 
 on: push
@@ -23,3 +24,4 @@ jobs:
           context: ./Dockerfolder
           push: true
           tags: abhishek123456780/automate_image:latest
+         
